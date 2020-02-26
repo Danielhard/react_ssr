@@ -1,1 +1,1 @@
-## 简易版react-ssr实现，(server:koa;client:react),体现server端和客户端的同构
+## react-ssr原理简易版,实现server端(koa)和客户端的同构。
