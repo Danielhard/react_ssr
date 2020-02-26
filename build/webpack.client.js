@@ -1,5 +1,5 @@
 const path = require("path");
-moudle.exports = {
+module.exports = {
     mode: "development",
     entry: {
         index: path.join(__dirname, "../src/client/index.tsx")
@@ -8,7 +8,7 @@ moudle.exports = {
         path: path.join(__dirname, "../dist/public"),
         filename: 'bundle.js'
     },
-    moudle: {
+    module: {
         rules: [{
             test: /\.tsx?$/,
             use: ["babel-loader"]

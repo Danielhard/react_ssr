@@ -9,7 +9,7 @@ const routes = [
     },
     {
         path: '/about',
-        compoent: About,
+        component: About,
         loadData:About.loadData
     }
 

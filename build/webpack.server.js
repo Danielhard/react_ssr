@@ -2,7 +2,7 @@ const path = require("path");
 // 不打包node原生api
 const nodeExternals = require("webpack-node-externals");
 
-moudle.exports = {
+module.exports = {
     mode: "development",
     target: "node", // server 端要加target 
     entry: {
@@ -12,7 +12,7 @@ moudle.exports = {
         path: path.join(__dirname, '../dist'),
         filename: "app.js"
     },
-    moudle: {
+    module: {
         rules: [{
             test: /\.tsx?$/,
             use: ["babel-loader"]
