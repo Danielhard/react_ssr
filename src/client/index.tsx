@@ -1,4 +1,4 @@
-import React from 'raect';
+import React from 'react';
 import ReactDom from 'react-dom';
 import App from '../shared/App';
 import { BrowserRouter } from 'react-router-dom';

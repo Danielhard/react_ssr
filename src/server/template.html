@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+      <html lang="en">
+      <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>react 同构</title>
+      </head>
+      <body>
+          <div id="root">${content}</div>
+          <script>
+            window.BACKEND_DATA = ${JSON.stringify(store.getState())}
+          </script>
+          <script src="/bundle.js"></script>
+      </body>
+      </html>

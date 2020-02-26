@@ -10,7 +10,7 @@ const routes = [
     {
         path: '/about',
         compoent: About,
-
+        loadData:About.loadData
     }
 
 ]
