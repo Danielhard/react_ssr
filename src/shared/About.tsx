@@ -16,7 +16,7 @@ class About extends React.Component<IProps, IState> {
         .then(res => {
           store.dispatch({
             type: "CHANGE_DATA",
-            payload: {
+            payLoad: {
               data: res.data.data
             }
           });
@@ -58,7 +58,7 @@ function mapDiapatchToProps(dispatch) {
     changeData(data) {
       dispatch({
         type: "CHANGE_DATA",
-        payload: {
+        payLoad: {
           data: data
         }
       });
